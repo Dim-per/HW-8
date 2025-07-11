@@ -1,0 +1,17 @@
+.monday li {color: red;}
+.tuesday li {color: green;}
+.wednesday li {color: blue;}
+.thursday li {color: orange;}
+.friday li {color: purple;}
+
+li:hover {text-decoration: underline;}
+li:active {font-weight: bold;}
+li:focus {outline:1px solid black}
+a:visited {color: gray;}
+input:checked + label {color: teal;}
+
+li:first-child {font-style: italic;}
+li:last-child {text-transform: uppercase;}
+li:nth-child(3) {background: #eee;}
+li:nth-of-type(4) {border-left: 3px solid black;}
+li:not(:first-child) {margin-left: 5px;}
